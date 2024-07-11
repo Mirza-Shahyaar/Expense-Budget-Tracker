@@ -14,7 +14,7 @@ while True:
     choice = input("Enter your choice (1/2/3): ")
 
     if choice == '1':
-        amount = float(input("Enter the amount: "))
+        amount = float(input("Enter the amount: $"))
         category = input("Enter the category (e.g., salary, groceries, entertainment): ")
         entry_type = input("Enter the type (income/expense): ").lower()
 
